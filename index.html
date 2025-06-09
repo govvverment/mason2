@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Подписка на УБТ</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.07);
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #ffffff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      text-transform: uppercase;
+      z-index: 1000;
+    }
+
+    .page-container {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+    }
+
+    .text-block {
+      background: transparent;
+      margin: 10px auto 20px;
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 360px;
+    }
+
+    .text-block p {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff; /* Было #000 */
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .buttons-block {
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(4px);
+      padding: 20px;
+      border-radius: 0;
+      width: 90%;
+      max-width: 360px;
+      margin: 20px auto 30px;
+    }
+
+    .buttons-block button {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      padding: 14px 20px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 0;
+      font-size: 16px;
+      font-weight: 700;
+      color: white;
+      cursor: pointer;
+      width: 100%;
+      transition: transform 0.2s;
+    }
+
+    .buttons-block button:hover {
+      transform: scale(1.02);
+    }
+
+    .instagram-btn {
+      background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
+
+    .telegram-btn:nth-of-type(2) {
+      background: linear-gradient(90deg, #74d2ff, #3baee7);
+    }
+
+    .telegram-btn:nth-of-type(3) {
+      background: linear-gradient(90deg, #5ab7ec, #429de4);
+    }
+
+    .buttons-block svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+
+    .submit-block {
+      background: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(4px);
+      margin: 20px auto;
+      padding: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 360px;
+      border-radius: 0;
+    }
+
+    .submit-block button {
+      width: 100%;
+      font-size: 18px;
+      padding: 14px 0;
+      border: none;
+      border-radius: 0;
+      cursor: pointer;
+      font-weight: 700;
+      color: white;
+      background-image: linear-gradient(90deg, #28a745 0%, #5edc8a 100%);
+      box-shadow: 0 0 16px rgba(40, 167, 69, 0.4);
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .submit-block button:hover {
+      transform: scale(1.03);
+      opacity: 0.95;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Delovar</div>
+
+  <div class="page-container">
+    <div class="text-block">
+      <p><strong>ОБУЧЕНИЕ ПО УБТ АРБИТРАЖУ + ВХОД В ЗАКРЫТОЕ КОМЬЮНИТИ — ВСЕГО ЗА 3 ПРОСТЫЕ ПОДПИСКИ!</strong></p>
+    </div>
+
+    <div class="buttons-block">
+      <button class="instagram-btn" onclick="window.open('https://instagram.com/_u/delovar__producti0n', '_blank')">
+        <svg viewBox="0 0 24 24"><path d="..."/></svg>
+        Instagram
+      </button>
+
+      <button class="telegram-btn" onclick="window.open('https://t.me/+A9LNwZb58ztlMmRi', '_blank')">
+        <svg viewBox="0 0 24 24"><path d="..."/></svg>
+        Y$UR PROFIT
+      </button>
+
+      <button class="telegram-btn" onclick="window.open('https://t.me/+msyYdHyL9B1hMWQ6', '_blank')">
+        <svg viewBox="0 0 24 24"><path d="..."/></svg>
+        Канал по трафику от Деловара
+      </button>
+    </div>
+
+    <div class="submit-block">
+      <button onclick="window.location.href='https://t.me/delovarscorp_bot'">Готово</button>
+    </div>
+  </div>
+</body>
+</html>
